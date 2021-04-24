@@ -1,4 +1,4 @@
-# Project Name
+# Death Time
 MSCH-C220 Game Jam, April 2021
 
 ## Theme
