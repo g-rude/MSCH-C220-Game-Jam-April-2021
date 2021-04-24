@@ -15,6 +15,8 @@ Struggles or surprises you encountered during the development of the game
 Features
 Assets, or resources used
 
+Tile Assets: https://www.kenney.nl/assets/bit-platformer-pack
+
 ## References
 
 ## Future Development
