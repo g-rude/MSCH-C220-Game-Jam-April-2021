@@ -875,8 +875,17 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 [node name="Ground" type="TileMap" parent="."]
+tile_set = SubResource( 15 )
+=======
+[node name="TileMap" type="TileMap" parent="."]
+=======
+[node name="Ground" type="TileMap" parent="."]
+>>>>>>> e2779c462ed3e4061c525815d1868097fd652770
 tile_set = SubResource( 23 )
+>>>>>>> d006e406584f9cbeddb8e3c83aa4343345166dd6
 cell_size = Vector2( 16, 16 )
 collision_layer = 2
 format = 1
