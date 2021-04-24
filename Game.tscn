@@ -1,4 +1,4 @@
-[gd_scene load_steps=55 format=2]
+[gd_scene load_steps=56 format=2]
 
 [ext_resource path="res://Player/Player_Container.gd" type="Script" id=1]
 [ext_resource path="res://Camera.gd" type="Script" id=2]
@@ -31,6 +31,7 @@
 [ext_resource path="res://Assets/Tiles/Transparent/tile_0269.png" type="Texture" id=29]
 [ext_resource path="res://Assets/Tiles/Transparent/tile_0003.png" type="Texture" id=30]
 [ext_resource path="res://Assets/Tiles/Transparent/tile_0268.png" type="Texture" id=31]
+[ext_resource path="res://Spike.tscn" type="PackedScene" id=32]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 16, 16, 0, 16, 0, 0, 16, 0 )
@@ -718,3 +719,6 @@ limit_top = 0
 limit_right = 1920
 limit_bottom = 1080
 script = ExtResource( 2 )
+
+[node name="StaticBody2D" parent="." instance=ExtResource( 32 )]
+position = Vector2( 1800, 1000 )
