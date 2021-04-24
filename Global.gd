@@ -1,5 +1,6 @@
 extends Node
 
+<<<<<<< HEAD
 var lives = 10
 var max_lives = 10
 
@@ -24,5 +25,8 @@ func decrease_lives(l):
 		get_tree().change_scene("")
 
 func _process(delta):
+=======
+func _process(_delta):
+>>>>>>> e2779c462ed3e4061c525815d1868097fd652770
 	if Input.is_action_pressed("quit"):	
 		get_tree().quit()
